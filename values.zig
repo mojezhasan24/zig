@@ -8,5 +8,5 @@ pub fn main() void {
     print("1 + 1 = {}\n", .{one_plus_one});
 
     const flt_addition: f32 = 7.7 + 3.3;
-    print("7.7 + 3.3 = {d:.2}\n", .{flt_addition});
+    print("7.7 + 3.3 = {d:.1}\n", .{flt_addition});
 }
